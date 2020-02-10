@@ -3950,3 +3950,4 @@ CONFIG_imagefeature-hwcodecs=y
 # PetaLinux RootFS Settings
 #
 CONFIG_ROOTFS_ROOT_PASSWD="root"
+CONFIG_mender=y
