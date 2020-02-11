@@ -255,5 +255,6 @@ CONFIG_YOCTO_NETWORK_SSTATE_FEEDS_URL="http://petalinux.xilinx.com/sswreleases/r
 #
 CONFIG_USER_LAYER_0="${PROOT}/components/meta-mender/meta-mender-core"
 CONFIG_USER_LAYER_1="${PROOT}/components/meta-mender-zynq"
-CONFIG_USER_LAYER_2=""
+CONFIG_USER_LAYER_2="${PROOT}/components/meta-golang"
+CONFIG_USER_LAYER_3=""
 CONFIG_SUBSYSTEM_BOOTARGS_GENERATED="console=ttyPS0,115200 earlyprintk root=/dev/mmcblk0p2 rw rootwait"
