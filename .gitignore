@@ -10,3 +10,10 @@ pre-built/linux/
 *.log
 project-spec/meta-plnx-generated/
 /components/plnx_workspace
+
+# External repositories live here
+components/
+
+# Xilinx Hardware Files
+*.bit
+*.hdf
