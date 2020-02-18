@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
   <manifest>
-  <default sync-j="4" revision="Petalinux_2019.2" remote="github"/>
-
-  <remote fetch="github.com:brymatPC"        name="github"/>
-
-  <project name="Zybo-Z7-20-Linux" remote="github" path="zybo"/>
-
+  <!--<default sync-j="4" revision="Petalinux_2019.2" remote="github"/>-->
+  <remote fetch="ssh://git@github.com" name="github"/>
+  <project name="brymatPC/Zybo-Z7-20-Linux" remote="github" revision="Petalinux_2019.2"/>
   </manifest>
