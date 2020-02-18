@@ -17,3 +17,4 @@ components/
 # Xilinx Hardware Files
 *.bit
 *.hdf
+*.xsa
