@@ -144,6 +144,11 @@ CONFIG_system-zynq=y
 # CONFIG_formfactor-dev is not set
 
 #
+# haveged 
+#
+# CONFIG_haveged is not set
+
+#
 # i2c-tools 
 #
 # CONFIG_i2c-tools is not set
@@ -2871,7 +2876,6 @@ CONFIG_packagegroup-core-ssh-dropbear=y
 #
 # CONFIG_qtsensors is not set
 # CONFIG_qtsensors-dbg is not set
-# CONFIG_qtsensors-examples-dev is not set
 # CONFIG_qtsensors-mkspecs is not set
 # CONFIG_qtsensors-examples is not set
 # CONFIG_qtsensors-dev is not set
@@ -2927,12 +2931,10 @@ CONFIG_packagegroup-core-ssh-dropbear=y
 # CONFIG_qttranslations-assistant is not set
 # CONFIG_qttranslations-qtwebsockets is not set
 # CONFIG_qttranslations-qtquickcontrols2 is not set
-# CONFIG_qttranslations-qtquick1 is not set
 # CONFIG_qttranslations-qtdeclarative is not set
 # CONFIG_qttranslations-qtxmlpatterns is not set
 # CONFIG_qttranslations-qtmultimedia is not set
 # CONFIG_qttranslations-qtconnectivity is not set
-# CONFIG_qttranslations-qt is not set
 # CONFIG_qttranslations-qtbase is not set
 # CONFIG_qttranslations-qtserialport is not set
 # CONFIG_qttranslations-linguist is not set
@@ -3626,7 +3628,6 @@ CONFIG_bridge-utils=y
 #
 # libpthread-stubs 
 #
-# CONFIG_libpthread-stubs is not set
 # CONFIG_libpthread-stubs-dev is not set
 # CONFIG_libpthread-stubs-dbg is not set
 
@@ -3939,8 +3940,7 @@ CONFIG_imagefeature-hwcodecs=y
 #
 # apps 
 #
-# CONFIG_gpio-demo is not set
-# CONFIG_peekpoke is not set
+CONFIG_ipserver=y
 
 #
 # user packages 
@@ -3950,4 +3950,4 @@ CONFIG_imagefeature-hwcodecs=y
 # PetaLinux RootFS Settings
 #
 CONFIG_ROOTFS_ROOT_PASSWD="root"
-CONFIG_ipserver=y
+CONFIG_ADD_EXTRA_USERS=""
