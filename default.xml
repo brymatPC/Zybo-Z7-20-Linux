@@ -3,4 +3,5 @@
   <!--<default sync-j="4" revision="Petalinux_2019.2" remote="github"/>-->
   <remote fetch="ssh://git@github.com" name="github"/>
   <project name="brymatPC/Zybo-Z7-20-Linux" remote="github" revision="Petalinux_2019.2" path="zybo"/>
+  <project name="brymatPC/meta-zybo" remote="github" revision="master" path="meta-zybo"/>
   </manifest>
