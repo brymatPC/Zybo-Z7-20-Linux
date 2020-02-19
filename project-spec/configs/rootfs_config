@@ -3938,13 +3938,10 @@ CONFIG_imagefeature-hwcodecs=y
 # CONFIG_imagefeature-debug-tweaks is not set
 
 #
-# apps 
-#
-CONFIG_ipserver=y
-
-#
 # user packages 
 #
+CONFIG_ipserver=y
+CONFIG_mender=y
 
 #
 # PetaLinux RootFS Settings
