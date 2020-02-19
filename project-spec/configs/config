@@ -170,9 +170,8 @@ CONFIG_SUBSYSTEM_MACHINE_NAME="template"
 #
 # Kernel Bootargs
 #
-CONFIG_SUBSYSTEM_BOOTARGS_AUTO=y
-CONFIG_SUBSYSTEM_BOOTARGS_EARLYPRINTK=y
-
+# CONFIG_SUBSYSTEM_BOOTARGS_AUTO is not set
+CONFIG_SUBSYSTEM_USER_CMDLINE="console=ttyPS0,115200 earlycon root=${mender_kernel_root} rw rootwait"
 CONFIG_SUBSYSTEM_DEVICETREE_FLAGS=""
 # CONFIG_SUBSYSTEM_DTB_OVERLAY is not set
 # CONFIG_SUBSYSTEM_REMOVE_PL_DTB is not set
@@ -260,4 +259,3 @@ CONFIG_USER_LAYER_0="${PROOT}/../meta-zybo"
 CONFIG_USER_LAYER_1="${PROOT}/../meta-mender/meta-mender-core"
 CONFIG_USER_LAYER_2="${PROOT}/../meta-mender-zynq"
 CONFIG_USER_LAYER_3=""
-CONFIG_SUBSYSTEM_BOOTARGS_GENERATED="console=ttyPS0,115200 earlycon root=${mender_kernel_root} rw rootwait"
