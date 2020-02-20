@@ -2,8 +2,8 @@
   <manifest>
   <!--<default sync-j="4" revision="Petalinux_2019.2" remote="github"/>-->
   <remote fetch="ssh://git@github.com" name="github"/>
-  <project name="brymatPC/Zybo-Z7-20-Linux" remote="github" revision="Petalinux_2019.2" path="zybo"/>
+  <project name="brymatPC/Zybo-Z7-20-Linux" remote="github" revision="AddMender" path="zybo"/>
   <project name="brymatPC/meta-zybo" remote="github" revision="master" path="meta-zybo"/>
-  <project name="brymatPC/meta-mender-zynq" remote="github" revision="petalinux_2019.1" path="meta-mender-zynq"/>
+  <project name="brymatPC/meta-mender-zynq" remote="github" revision="Petalinux_2019.2" path="meta-mender-zynq"/>
   <project name="mendersoftware/meta-mender" remote="github" revision="thud" path="meta-mender"/>
   </manifest>
